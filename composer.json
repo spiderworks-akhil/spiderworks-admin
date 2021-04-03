@@ -1,0 +1,35 @@
+{
+    "name": "spiderwork/laravel-dashboard",
+    "description": "Admin package for basic functionality",
+    "type": "library",
+    "require": {
+        "yajra/laravel-datatables-oracle": "v9.15.2",
+        "intervention/image": "^2.5",
+        "arrilot/laravel-widgets": "3.13.1",
+        "laravel/breeze" : "1.1.4",
+        "spatie/laravel-permission":"4.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spiderworks\\Webadmin\\WebadminServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Spiderworks\\Webadmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sobha",
+            "email": "sobha@spiderworks.in"
+        },
+        {
+            "name": "Akhil Joy",
+            "email": "akhil@spiderworks.in"
+        }
+    ],
+    "version": "2.0.0"
+}
