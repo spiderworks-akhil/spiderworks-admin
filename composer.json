@@ -1,5 +1,5 @@
 {
-    "name": "spiderwork/laravel-dashboard",
+    "name": "spiderworks/dashboard",
     "description": "Admin package for basic functionality",
     "type": "library",
     "require": {
